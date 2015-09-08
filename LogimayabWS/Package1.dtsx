@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{47275302-317F-4D72-B6FB-915687BC13AE}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{83039554-8106-4895-84D3-20948E269B2E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -31,10 +31,28 @@
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="3"
-      DTS:DTSID="{A8B9A5E9-E90E-455D-81C3-0C64694037CC}"
-      DTS:ObjectName="Test">
+      DTS:DTSID="{D4F0AF60-DFF3-4B62-AC10-637A945E1A3C}"
+      DTS:ObjectName="Test2">
       <DTS:Property
         DTS:DataType="3"
+        DTS:Name="ParameterValue">0</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="3"
+      DTS:DTSID="{287684F3-F0EE-4B63-B64B-965EBAE49E08}"
+      DTS:ObjectName="Test3">
+      <DTS:Property
+        DTS:DataType="3"
+        DTS:Name="ParameterValue">0</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="11"
+      DTS:DTSID="{B1594081-CFF4-47F3-A1BA-5FF0A8F1621F}"
+      DTS:ObjectName="Test4">
+      <DTS:Property
+        DTS:DataType="11"
         DTS:Name="ParameterValue">0</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
